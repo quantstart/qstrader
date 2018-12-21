@@ -1,0 +1,8 @@
+__author__ = "QuantStart"
+__copyright__ = "Copyright 2015-2018"
+__license__ = "MIT"
+__version__ = "0.0.1"
+__maintainer__ = "quantstart"
+__email__ = ""
+__status__ = "Development"
+__url__ = "https://github.com/quantstart/qstrader"
