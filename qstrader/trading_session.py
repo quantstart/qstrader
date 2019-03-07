@@ -49,6 +49,7 @@ class TradingSession(object):
         self.title = title
         self.benchmark = benchmark
         self.session_type = session_type
+        self.end_session_time = end_session_time
         self._config_session()
         self.cur_time = None
 
