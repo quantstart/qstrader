@@ -9,8 +9,8 @@ class LiquidateRebalancePositionSizer(AbstractPositionSizer):
     Carries out a periodic full liquidation and rebalance of
     the Portfolio.
 
-    This is achieved by determining whether an order type type
-    is "EXIT" or "BOT/SLD".
+    This is achieved by determining whether an order type is
+    "EXIT" or "BOT/SLD".
 
     If the former, the current quantity of shares in the ticker
     is determined and then BOT or SLD to net the position to zero.
