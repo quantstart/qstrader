@@ -27,7 +27,8 @@ class IBSimulatedExecutionHandler(AbstractExecutionHandler):
         self.price_handler = price_handler
         self.compliance = compliance
 
-    def calculate_ib_commission(self, quantity, fill_price):
+    @staticmethod
+    def calculate_ib_commission(quantity, fill_price):
         """
         Calculate the Interactive Brokers commission for
         a transaction. This is based on the US Fixed pricing,
